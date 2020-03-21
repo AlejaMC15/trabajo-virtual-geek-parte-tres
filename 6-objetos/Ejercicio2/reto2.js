@@ -4,6 +4,6 @@ const geekGirl1 = {
     profession: 'Periodista',
 };
 
-geekGirl1.run = (phrase) => `Yo estoy: ${phrase}`;
-geekGirl1.runAMarathon = (numero) => `un maraton de : ${numero}`
-console.log([geekGirl1.run('corriendo') + geekGirl1.runAMarathon('50km')]);
+geekGirl1.run = (phrase) => `Yo estoy ${phrase}`;
+geekGirl1.runAMarathon = (numero) => ` una maraton de ${numero}`
+console.log(geekGirl1.run('corriendo') + geekGirl1.runAMarathon('50km'));
